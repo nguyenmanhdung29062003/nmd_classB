@@ -24,3 +24,4 @@ Route::put('/products/{product}',[ProductController::class,'updateProduct']);
 Route::get('/getproducts/{product?}',[ProductController::class,'show']);
 Route::delete('/getproducts/{product}',[ProductController::class,'softdelete']);
 Route::post('/products/restore/{id}', [ProductController::class, 'restore']);
+
